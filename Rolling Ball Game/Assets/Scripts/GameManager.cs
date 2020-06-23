@@ -7,6 +7,9 @@ public class GameManager : MonoBehaviour
     // Create boolean to check if game ended
     bool gameHasEnded = false;
 
+    // Create restartDelay variable
+    public float restartDelay = 1f;
+
     // Changing States in our Game.  Add "public" to make this function public
     public void EndGame ()
     {
@@ -15,7 +18,7 @@ public class GameManager : MonoBehaviour
             gameHasEnded = true;
             Debug.Log("Game over!");
             // Restart Game
-            Restart();
+            Invoke("Restart", restartDelay);
         }
     }
 
