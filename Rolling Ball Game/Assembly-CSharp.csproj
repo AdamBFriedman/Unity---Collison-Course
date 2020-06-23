@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Score.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/kustanzaz/Documents/GitHub/Unity---Collison-Course/Rolling Ball Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
