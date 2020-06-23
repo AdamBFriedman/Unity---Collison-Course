@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{8EC85C37-AEBB-8757-66BF-5FA38A77BF35}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayerCollision.cs">
+    <Files>
+      <File FileName="Assets/PlayerMovement.cs" Line="5" Column="65" />
+      <File FileName="Assets/FollowPlayer.cs" Line="17" Column="1" />
+      <File FileName="Assets/PlayerCollision.cs" Line="5" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Rolling Ball Game" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="PlayerCollision.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="f2bf12e8-bd9a-4361-8d89-901acc9a9fad" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
