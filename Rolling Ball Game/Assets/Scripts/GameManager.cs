@@ -10,9 +10,11 @@ public class GameManager : MonoBehaviour
     // Create restartDelay variable
     public float restartDelay = 1f;
 
+    public GameObject completeLevelUI;
+
     public void CompleteLevel ()
     {
-        Debug.Log("Level won!");
+        completeLevelUI.SetActive(true);
     }
 
     // Changing States in our Game.  Add "public" to make this function public
