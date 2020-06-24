@@ -581,7 +581,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 0f1d01c227dd15c489f52cb712c6b59e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1651,6 +1651,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551464751971081698, guid: ff947e3b514a24365a91cf75b7e51b2b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 131
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551464751971081698, guid: ff947e3b514a24365a91cf75b7e51b2b,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551464751971081709, guid: ff947e3b514a24365a91cf75b7e51b2b,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2551464751971081711, guid: ff947e3b514a24365a91cf75b7e51b2b,
         type: 3}
