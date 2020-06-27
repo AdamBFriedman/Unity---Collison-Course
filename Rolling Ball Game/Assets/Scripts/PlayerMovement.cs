@@ -9,11 +9,8 @@ public class PlayerMovement : MonoBehaviour
     public float forwardForce = 2000f;
     public float sidewaysForce = 500f;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // Create spin variable
+    public float spinSpeed;
 
     // Update is called once per frame.
     //void Update()
@@ -49,6 +46,8 @@ public class PlayerMovement : MonoBehaviour
         //{
         //    rb.AddForce(-sidewaysForce * Time.deltaTime, 0, 0);
         //}
+        spinSpeed = (spinSpeed + 10);
+        transform.Rotate(Vector3.up, spinSpeed * Time.deltaTime);
 
         // Changing player movement by adding ForceMode.VelocityChange
         if (Input.GetKey("d") || Input.GetKey("right"))
