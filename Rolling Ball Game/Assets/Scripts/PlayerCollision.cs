@@ -19,9 +19,12 @@ public class PlayerCollision : MonoBehaviour
         {
             // Disable movement
             movement.enabled = false;
+
+            // Play collision sound
+            GetComponent<AudioSource>().Play();
+
             // Find Object
             FindObjectOfType<GameManager>().EndGame();
-
         }
     }
 }
